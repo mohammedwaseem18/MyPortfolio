@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade'
+import Fade from "react-reveal/Fade";
 import "./About.css";
 
 function About() {
@@ -9,21 +9,26 @@ function About() {
       <div className="about-img-container">
         <img src="dp-2.jpg" alt="Profile Picture" className="about-img" />
       </div>
+      
       <div className="about-text">
         <Fade left>
-        <p>
-         
-Hello! My name is Mohammed Waseem.
-
- I have a strong background in Computer Science and graduated in the year 2024.
-
-My goal is to pursue a career that enables me to express my creativity by designing exceptional software and creating immersive user experiences. I have a genuine passion for technology and find great joy in utilizing it to solve practical problems.
-
-In my leisure time, I indulge in various activities. I particularly enjoy playing table tennis, exploring different video games, and staying active through swimming.
-        </p>
+          <p>
+            I am Waseem, an ambitious undergraduate student majoring in Computer
+            Science and Engineering at BV Raju Institute of Technology. My
+            primary focus lies in the realm of web development, where I exhibit
+            proficiency in HTML, CSS, JavaScript, ReactJS, NodeJS, and SQL.
+            Additionally, I possess an insatiable curiosity for exploring new
+            destinations and an ardent fascination for automobiles. Driven by a
+            relentless pursuit of excellence, I actively seek opportunities to
+            enhance my skill set and stay at the forefront of the rapidly
+            evolving industry. With an unwavering dedication to personal and
+            professional growth, I aim to contribute meaningfully in the dynamic
+            landscape of web development.
+          </p>
         </Fade>
       </div>
     </div>
+   
   );
 }
 

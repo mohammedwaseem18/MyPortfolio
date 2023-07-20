@@ -75,6 +75,7 @@ section#home:before {
 }
 
 .arrow-icon {
+  cursor: pointer;
   font-size: 2rem;
   animation: bounce 2s infinite;
 }

@@ -1,4 +1,3 @@
-
 .projects {
   padding: 20px;
   margin: 20px;
@@ -39,6 +38,9 @@
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: fit-content;
+
+  overflow-y: auto; /* Enable vertical scroll if content exceeds max height */
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 20px;
@@ -56,14 +58,16 @@
 }
 
 .project-overlay p {
+
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .project-overlay a {
   display: inline-block;
   padding: 10px 20px;
+  text-decoration: none; /* Add this to remove the blue lines */
 }
 
 /* Responsive Adjustments */
@@ -85,10 +89,13 @@
     padding: 0;
     text-align: center;
     transition: none;
+    text-decoration: none; /* Add this to remove the blue lines */
   }
   
   .project-overlay a {
     display: block;
     margin-top: 10px;
+    text-decoration: none; /* Add this to remove the blue lines */
   }
 }
+

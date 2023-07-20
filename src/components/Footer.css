@@ -92,3 +92,24 @@
   font-size: small;
 }
 
+@media (max-width: 768px) {
+  .social-links {
+    display: flex;
+    flex-direction: row; /* Change to column to stack the links vertically */
+    align-items: center;
+  }
+
+  .social-links a {
+    margin: 10px  /* Adjust the margins for better spacing */
+  }
+
+  .footer .copyright-info {
+    margin-top: 2px; /* Adjust the margin to move the copyrights up */
+    margin-bottom: 20px; /* Adjust the margin to give some space after copyrights */
+  }
+
+  .rocket-section {
+    margin-top: 10px; /* Adjust the margin to move the rocket section up */
+  }
+}
+

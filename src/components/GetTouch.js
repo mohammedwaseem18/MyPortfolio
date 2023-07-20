@@ -1,3 +1,4 @@
+
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './GetTouch.css';
@@ -7,7 +8,7 @@ function GetTouch() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_i5p00ke', 'template_nb94q60', e.target, '9d1TU8fhrg1HlbhOit-D-')
+      .sendForm('gmail', 'template_u86f8r8', e.target, 'EgCc6jFyCHYuvrRNA')
       .then((result) => {
         console.log(result.text);
       })
@@ -53,7 +54,7 @@ function GetTouch() {
         </div>
         <div className="arrow">
           <img
-            src="https://www.seekpng.com/png/small/432-4321277_arrow-thin-left-arrow-pointing-to-the-side.png"
+            src="https://media.tenor.com/q-zZSTX6jSIAAAAM/mail-download.gif"
             alt="arrow"
           />
         </div>
@@ -62,6 +63,6 @@ function GetTouch() {
   );
 }
 
-export default GetTouch;
+export default GetTouch; 
 
 

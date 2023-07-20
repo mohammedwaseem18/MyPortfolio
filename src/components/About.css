@@ -5,6 +5,7 @@
   align-items: center;
   padding: 20px;
   margin: 20px;
+
 }
 
 .about-img-container {
@@ -41,4 +42,11 @@
   font-size: 18px;
   line-height: 1.6;
   font-weight: 400;
+  max-width: fit-content;
 }
+@media screen and (max-width: 768px) {
+  .about-text {
+    max-width: 90%; /* Adjust the max-width for better aesthetics in small screens */
+  }
+}
+

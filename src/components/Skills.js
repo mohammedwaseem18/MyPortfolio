@@ -46,7 +46,12 @@ function Skills() {
           <div className="skill">
             <img src="https://miro.medium.com/v2/resize:fit:719/1*WaaXnUvhvrswhBJSw4YTuQ.png" alt="Skill 3" className="skill-image" />
           </div>
-          {/* Add more skills as needed */}
+          <div className="skill">
+            <img src="https://res.cloudinary.com/hevo/image/upload/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif" alt="Skill 3" className="skill-image" />
+          </div>
+          <div className="skill">
+            <img src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" alt="Skill 3" className="skill-image" />
+          </div>
         </div>
       </section>
 
